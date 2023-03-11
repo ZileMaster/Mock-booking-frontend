@@ -2,8 +2,11 @@ import { format } from 'date-fns'
 import React, { useState } from 'react'
 import { DateRange } from 'react-date-range'
 import { useLocation } from 'react-router-dom'
+import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
+import MailList from '../../components/mailList/MailList'
 import Navbar from '../../components/navbar/Navbar'
+import SearchItem from '../../components/searchItem/SearchItem'
 import './list.css'
 
 export const List = () => {
@@ -68,9 +71,21 @@ export const List = () => {
               </div>
               <button>Search</button>
             </div>
-            <div className="listResult"></div>
+            <div className="listResult">
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+              <SearchItem />
+            </div>
           </div>
         </div>
+        <MailList />
+        <Footer />
     </div>
   )
 }

@@ -17,7 +17,7 @@
     padding: 10px;
     position: sticky;
     border-radius: 10px;
-
+    height: max-content;
 }
 
 .listTitle{

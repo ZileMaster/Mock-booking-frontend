@@ -2,6 +2,9 @@ import React from 'react'
 import './featuredProperties.css'
 
 function FeaturedProperties() {
+
+    const { data, loading, error} = useFetch("http://localhost:8800/api/hotels/countByType");
+
   return (
     <div className='fp'>
         <div className='fpItem'>

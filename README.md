@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Booking frontend: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The mock frontend coming onto the mock backend, nothing much, just React and CSS, a little hook managment and more stuff, but again, nothing too complicated
 
 ## Available Scripts
 
